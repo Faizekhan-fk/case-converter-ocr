@@ -1,3 +1,4 @@
+**By [Faize khan]**
 # Text Converter & OCR
 
 A modern, responsive React application that provides text case conversion and optical character recognition (OCR) functionality. Built with TypeScript, Tailwind CSS, and modern UI/UX principles.
