@@ -1,5 +1,9 @@
 **By [Faize khan]**
+<<<<<<< HEAD
 # Text Converter, OCR & Image Processor
+=======
+# Text Converter & OCR
+>>>>>>> 8cbdc97cd81a53ec47ea17047ea58bd9bfbcaf70
 
 A modern, responsive React application that provides text case conversion, optical character recognition (OCR), and advanced image processing functionality including background removal and format conversion. Built with TypeScript, Tailwind CSS, and modern AI-powered tools.
 
