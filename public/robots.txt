@@ -1,3 +1,20 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Allow all crawlers
+User-agent: *
+Disallow: /build/
+Disallow: /node_modules/
+Disallow: *.json$
+
+# Google bots
+User-agent: Googlebot
+Allow: /
+
+# Bing bots
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://yoursite.com/sitemap.xml

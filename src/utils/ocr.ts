@@ -4,10 +4,11 @@ import { OCRResult, OCRProgress } from '../types';
 export class OCRService {
   async extractText(
     imageFile: File,
-    onProgress?: (progress: OCRProgress) => void
+    onProgress?: (progress: OCRProgress) => void,
+    language: string = 'eng'
   ): Promise<OCRResult> {
     try {
-      const result = await Tesseract.recognize(imageFile, 'eng', {
+      const result = await Tesseract.recognize(imageFile, language, {
         logger: (m: any) => {
           if (onProgress) {
             onProgress({

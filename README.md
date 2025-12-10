@@ -1,6 +1,7 @@
-# Text Converter & OCR
+**By [Faize khan]**
+# Text Converter, OCR & Image Processor
 
-A modern, responsive React application that provides text case conversion and optical character recognition (OCR) functionality. Built with TypeScript, Tailwind CSS, and modern UI/UX principles.
+A modern, responsive React application that provides text case conversion, optical character recognition (OCR), and advanced image processing functionality including background removal and format conversion. Built with TypeScript, Tailwind CSS, and modern AI-powered tools.
 
 ## Features
 
@@ -34,6 +35,18 @@ A modern, responsive React application that provides text case conversion and op
 - **Image Preview**: Preview uploaded images before processing
 - **Seamless Integration**: Extracted text automatically transfers to case converter
 
+### 🖼️ Image Processor
+- **AI-Powered Background Removal**: Remove backgrounds from images using TensorFlow.js BodyPix
+- **Format Conversion**: Convert between JPEG, PNG, and WebP formats
+- **Batch Processing**: Process multiple images simultaneously
+- **Advanced Options**: 
+  - Adjustable image quality (0.1-1.0)
+  - Custom background color for JPEG conversion
+  - Segmentation threshold control
+  - Horizontal flip option
+- **Download Support**: Download processed images in multiple formats
+- **Live Preview**: See processed images with transparency checkerboard background
+
 ### 🎨 Modern UI/UX
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile
 - **Dark Mode**: Toggle between light and dark themes with system preference detection
@@ -48,7 +61,10 @@ A modern, responsive React application that provides text case conversion and op
 - **Icons**: Heroicons for consistent iconography
 - **Animations**: Framer Motion for smooth transitions
 - **OCR**: Tesseract.js for client-side text recognition
-- **File Upload**: React Dropzone for drag & drop functionality
+- **AI/ML**: TensorFlow.js with BodyPix for background removal
+- **Image Processing**: HTML5 Canvas API for image manipulation
+- **File Handling**: React Dropzone for drag & drop, FileSaver.js for downloads
+- **Image Formats**: Support for JPEG, PNG, WebP conversion
 
 ## Getting Started
 
@@ -104,6 +120,21 @@ This builds the app for production to the `build` folder.
 6. Click "Copy" to copy the extracted text
 7. The text automatically transfers to the Case Converter tab
 
+### Image Processor
+1. Navigate to the "Image Tools" tab
+2. Drag and drop image files or click to browse (supports JPEG, PNG, WebP)
+3. Select multiple images for batch processing
+4. Choose processing type:
+   - **Convert Format Only**: Simple format conversion
+   - **Remove Background**: AI-powered background removal (requires model loading)
+5. Configure advanced options (optional):
+   - Adjust image quality slider
+   - Choose background color for JPEG format
+   - Fine-tune segmentation threshold
+   - Enable horizontal flip if needed
+6. Process images and preview results
+7. Download processed images in your preferred format (JPEG/PNG/WebP)
+
 ## Browser Support
 
 - Chrome/Edge (recommended)
@@ -134,7 +165,9 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - [Tesseract.js](https://tesseract.projectnaptha.com/) for OCR functionality
+- [TensorFlow.js](https://www.tensorflow.org/js) and [BodyPix](https://github.com/tensorflow/tfjs-models/tree/master/body-pix) for AI-powered background removal
 - [Tailwind CSS](https://tailwindcss.com/) for styling
 - [Heroicons](https://heroicons.com/) for beautiful icons
 - [Framer Motion](https://www.framer.com/motion/) for animations
 - [React Dropzone](https://react-dropzone.js.org/) for file uploads
+- [FileSaver.js](https://github.com/eligrey/FileSaver.js/) for client-side file downloads
