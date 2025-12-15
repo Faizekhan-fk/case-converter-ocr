@@ -11,7 +11,7 @@
     "text-processing",
     "tailwindcss"
   ],
-  "author": "Your Name",
+  "author": "Faize khan",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@tensorflow-models/body-pix": "^2.2.1",
