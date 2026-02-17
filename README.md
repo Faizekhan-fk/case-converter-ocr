@@ -1,6 +1,6 @@
 **By [Faize khan]**
 <<<<<<< HEAD
-# Text Converter, OCR & Image Processor and Downloader Tool
+# Text Converter, OCR & Image Processor and Downloader Tools
 =======
 # Text Converter & OCR
 >>>>>>> 8cbdc97cd81a53ec47ea17047ea58bd9bfbcaf70
